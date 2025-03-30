@@ -137,7 +137,7 @@ export default function ProductDetail () {
                     <h4 className="mt-2">Description:</h4>
                     <p>{product.description}</p>
                     <hr/>
-                    <p id="product_brand mb-3">Sold by: <strong>{product.brand}</strong></p>
+                    <p id="product_brand mb-3">Brand: <strong>{product.brand}</strong></p>
                     { user ?
                     <button onClick={handleShow} id="review_btn" type="button" className="btn btn-primary mt-4" data-toggle="modal" data-target="#ratingModal">
                                 Submit Your Review
