@@ -138,7 +138,7 @@ export default function ServiceForm() {
               type="submit"
               className="btn btn-primary btn-block py-2 mt-4"
             >
-              Submit Service Request
+              Submit 
             </button>
           </form>
         </div>
