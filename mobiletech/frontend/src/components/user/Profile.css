@@ -1,0 +1,43 @@
+/* Profile.css */
+.btn-animate {
+    transition: all 0.3s ease;
+    transform: scale(1);
+    font-size: 12px; 
+    padding: 6px 12px;
+    width: 200px;
+    height: 35px;
+    border-radius: 7px; 
+    font-weight: 500; 
+    text-transform: uppercase; 
+    letter-spacing: 0.5px; 
+    border: none; 
+    cursor: pointer; 
+}
+
+.btn-animate:hover {
+    transform: scale(0.92); 
+    opacity: 0.85; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #ffa502; 
+    color: #fff; 
+}
+
+.btn-danger {
+    background-color: #ff4757; 
+    color: #fff; 
+}
+
+.btn-danger:hover {
+    background-color: #ff6b81; 
+    border-color: #ff6b81;
+}
+
+.btn-primary {
+    background-color: #1e90ff; 
+    color: #fff; 
+}
+
+.btn-primary:hover {
+    background-color: #70a1ff;
+    border-color: #70a1ff;
+}
